@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNIV 101 & The Aims of BYU</title>
+  <style>
+    /* Basic reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      line-height: 1.6;
+      background: #f4f5fb;
+      color: #1f2933;
+      padding: 1.5rem;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2rem 1.75rem 2.5rem;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      color: #4b5563;
+      margin-top: 0.5rem;
+    }
+
+    .aims-intro {
+      margin-bottom: 1.75rem;
+      font-size: 0.95rem;
+      color: #4b5563;
+      text-align: center;
+    }
+
+    .aims-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (min-width: 720px) {
+      .aims-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .aim-card {
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
+      padding: 1.1rem 1rem;
+      background: #f9fafb;
+    }
+
+    .aim-title {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+      color: #111827;
+    }
+
+    .aim-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6b7280;
+      margin-bottom: 0.6rem;
+    }
+
+    .aim-card ul {
+      padding-left: 1.25rem;
+      font-size: 0.9rem;
+      color: #374151;
+    }
+
+    .aim-card li + li {
+      margin-top: 0.25rem;
+    }
+
+    footer {
+      margin-top: 2.25rem;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>UNIV 101 &amp; the Aims of BYU</h1>
+      <p>How a first-year experience course supports a BYU education.</p>
+      <p class="tagline">
+        Based on the four Aims of a BYU Education.
+      </p>
+    </header>
+
+    <section class="aims-intro">
+      <p>
+        UNIV 101 is designed to help new students transition into BYU life.
+        It strengthens the spiritual, intellectual, and personal foundations
+        that the Aims of a BYU Education describe, while encouraging
+        lifelong growth and service.
+      </p>
+    </section>
+
+    <main class="aims-grid">
+      <!-- 1. Spiritually Strengthening -->
+      <section class="aim-card">
+        <div class="aim-label">Aim 1</div>
+        <h2 class="aim-title">Spiritually Strengthening</h2>
+        <ul>
+          <li>
+            Helps students understand and value the spiritual mission of BYU.
+          </li>
+          <li>
+            Introduces gospel-centered learning and the disciple-scholar model.
+          </li>
+          <li>
+            Encourages reflection on how faith integrates with education.
+          </li>
+        </ul>
+      </section>
+
+      <!-- 2. Intellectually Enlarging -->
+      <section class="aim-card">
+        <div class="aim-label">Aim 2</div>
+        <h2 class="aim-title">Intellectually Enlarging</h2>
+        <ul>
+          <li>
+            Helps students understand the purpose of general education and broad learning.
+          </li>
+          <li>
+            Teaches strategies for academic success and effective use of campus resources.
+          </li>
+          <li>
+            Encourages intellectual humility and curiosity.
+          </li>
+        </ul>
+      </section>
+
+      <!-- 3. Character Building -->
+      <section class="aim-card">
+        <div class="aim-label">Aim 3</div>
+        <h2 class="aim-title">Character Building</h2>
+        <ul>
+          <li>
+            Emphasizes integrity, responsibility, and respectful dialogue.
+          </li>
+          <li>
+            Builds habits of self-management, resilience, and personal growth.
+          </li>
+          <li>
+            Connects students with BYU’s expectations for conduct and belonging.
+          </li>
+        </ul>
+      </section>
+
+      <!-- 4. Lifelong Learning & Service -->
+      <section class="aim-card">
+        <div class="aim-label">Aim 4</div>
+        <h2 class="aim-title">Lifelong Learning &amp; Service</h2>
+        <ul>
+          <li>
+            Helps students set long-term goals and see education as ongoing growth.
+          </li>
+          <li>
+            Encourages a service-oriented mindset and contribution to community.
+          </li>
+          <li>
+            Shows how the BYU experience prepares students for lifelong discipleship.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>UNIV 101 &middot; First-Year Experience at Brigham Young University</p>
+    </footer>
+  </div>
+</body>
+</html>
