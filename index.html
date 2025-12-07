@@ -172,7 +172,7 @@
     }
 
     .aim-card.open .aim-content {
-      max-height: 300px; /* plenty of space for bullets */
+      max-height: 300px;
       opacity: 1;
       transform: translateY(0);
     }
@@ -314,7 +314,7 @@
       header.addEventListener("click", () => {
         const isOpen = card.classList.contains("open");
 
-        // Close all cards first (if you want multiple open, remove this loop)
+        // Close all cards first (remove this loop if you want multiple open)
         cards.forEach((c) => {
           c.classList.remove("open");
           c.querySelector(".aim-header").setAttribute("aria-expanded", "false");
